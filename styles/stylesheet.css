@@ -43,8 +43,8 @@ footer{
   clear:both;
 }
 a {
-  /* paint it black. default links, at least */
-   color: black;
+  /* paint it white actually. default links, at least */
+   color: white;
 }
 /* Throw down an 80s style handwriting font */
 article h1 {
@@ -60,9 +60,9 @@ article img {
   padding-left: 1em;
 }
 
-/* EXTREMELY COOL button animation from codepen */
-a.btn {
-    display: inline-block;
+/* EXTREMELY COOL button animation from codepen modified a little */
+li {
+    /* display: inline-block; */
     border: 1px solid rgba(255,255,255,.5);
     padding: 5px 20px 5px 10px;
     text-decoration: none;
@@ -76,11 +76,11 @@ a.btn {
 
       }
 
-a.btn:hover {
+li:hover {
   background-color: rgba(0, 0, 0, .4); border-color: #fff; border-left-width: 15px;
 }
 
-a.btn::after {
+li::after {
   content: '';
   display: block;
   width: 10px; height: 100px;
