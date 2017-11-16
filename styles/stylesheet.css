@@ -20,14 +20,19 @@ img {
   display: block;
 }
 header {
-  justify-content: left;
+  justify-content: flex-end;
   margin: .3em;
   width: 50%;  
 }
+/* set up the nav bar */
 aside {
   clear: both;
   float:left;
   padding-left: .3em;
+}
+aside h2 {
+  font-size: 100%;
+  font-style: normal;
 }
 article {
   clear: both;
@@ -46,9 +51,13 @@ a {
   /* paint it white actually. default links, at least */
    color: white;
 }
+article a {
+  /* these still need to be black tho */
+  color: black;
+}
 /* Throw down an 80s style handwriting font */
 article h1 {
-  font-size: 1.5 em;
+  font-size: 1.5em;
   font-family: 'Permanent Marker', cursive;
 }
 article img {  
@@ -60,8 +69,8 @@ article img {
   padding-left: 1em;
 }
 
-/* EXTREMELY COOL button animation from codepen modified a little */
-li {
+/* EXTREMELY COOL button animation from codepen modified a little, used in Navigation */
+aside li {
     /* display: inline-block; */
     border: 1px solid rgba(255,255,255,.5);
     padding: 5px 20px 5px 10px;
@@ -76,11 +85,11 @@ li {
 
       }
 
-li:hover {
+aside li:hover {
   background-color: rgba(0, 0, 0, .4); border-color: #fff; border-left-width: 15px;
 }
 
-li::after {
+aside li::after {
   content: '';
   display: block;
   width: 10px; height: 100px;
