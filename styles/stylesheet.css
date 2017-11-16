@@ -9,7 +9,7 @@ br {
 h3 {
   font-size: 20%;
   padding-top: 2em;
-  transition: background-color, 1s, linear, .5s;
+ 
 }
  h3:hover {
   color:blueviolet;
@@ -38,7 +38,12 @@ article {
   display: table-cell;
 }
 
+footer{
+  /* put this thing back where it belongs */
+  clear:both;
+}
 a {
+  /* paint it black. default links, at least */
    color: black;
 }
 /* Throw down an 80s style handwriting font */
