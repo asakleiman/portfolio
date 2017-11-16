@@ -86,7 +86,9 @@ aside li {
       }
 
 aside li:hover {
-  background-color: rgba(0, 0, 0, .4); border-color: #fff; border-left-width: 15px;
+  background-color: rgba(0, 0, 0, .4); 
+  border-color: #fff;
+  border-left-width: 15px; 
 }
 
 aside li::after {
