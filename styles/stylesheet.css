@@ -9,6 +9,7 @@ br {
 h3 {
   font-size: 20%;
   padding-top: 2em;
+  transition: background-color, 1s, linear, .5s;
 }
  h3:hover {
   color:blueviolet;
@@ -19,13 +20,14 @@ img {
   display: block;
 }
 header {
-  justify-content: center;
-  margin: auto;
+  justify-content: left;
+  margin: .3em;
   width: 50%;  
 }
 aside {
   clear: both;
   float:left;
+  padding-left: .3em;
 }
 article {
   clear: both;
@@ -39,6 +41,7 @@ article {
 a {
    color: black;
 }
+/* Throw down an 80s style handwriting font */
 article h1 {
   font-size: 1.5 em;
   font-family: 'Permanent Marker', cursive;
@@ -49,9 +52,10 @@ article img {
   display: table-cell;
   width: 20%;
   height: auto;
+  padding-left: 1em;
 }
 
-/* button animation from codepen */
+/* EXTREMELY COOL button animation from codepen */
 a.btn {
     display: inline-block;
     border: 1px solid rgba(255,255,255,.5);
