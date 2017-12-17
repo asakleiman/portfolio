@@ -11,7 +11,7 @@ h3 {
   padding-top: 2em;
  
 }
- h3:hover {
+ footer h3:hover {
   color:blueviolet;
   font-size: 100%;
 }
@@ -80,7 +80,7 @@ aside li {
     letter-spacing: 2px;
     margin: 0px 0px 10px 0px;
     color: #fff;
-    width: 300px;
+    width: 10em;
     transition: background-color, 1s, ease-out, .5s, border .5s;
     position: relative;
     overflow: hidden;
@@ -104,4 +104,31 @@ aside li::after {
 }
 .carouselExampleControls {
   
+}
+/* Module styling */
+.module {
+    width: 180px;
+    padding: 15px;
+    border: .5px solid grey;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+}
+
+section {
+    padding-left: 50px;
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(51, 102, 204);
+}
+
+.module img {
+    position: relative;
+    margin-left: 15em;
+    right: 0;
+    left: 0;
+    width: 50%;
 }
